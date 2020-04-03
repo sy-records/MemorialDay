@@ -33,6 +33,17 @@ function memorial_day_wp_head()
 
 add_action('wp_head', 'memorial_day_wp_head');
 
+function memorial_day_plugin_action_links($links, $file)
+{
+    if ($file == plugin_basename(dirname(__FILE__) . '/memorial-day.php')) {
+        $links[] = '<a href="options-general.php?page=' . MEMORIALDAY_BASEFOLDER . '/memorial-day.php">设置</a>';
+        $links[] = '<a href="https://github.com/sy-records/MemorialDay/tree/wordpress" target="_blank">Github</a>';
+    }
+    return $links;
+}
+
+add_filter('plugin_action_links', 'memorial_day_plugin_action_links', 10, 2);
+
 function memorial_day_add_setting_page()
 {
     add_options_page('MemorialDay设置', 'MemorialDay设置', 'manage_options', __FILE__, 'memorial_day_setting_page');
