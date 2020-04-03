@@ -9,7 +9,7 @@ Author URI: https://qq52o.me
 License: Apache 2.0
 */
 
-define('MEMORIALDay_BASEFOLDER', plugin_basename(dirname(__FILE__)));
+define('MEMORIALDAY_BASEFOLDER', plugin_basename(dirname(__FILE__)));
 
 register_activation_hook(__FILE__, 'memorial_day_set_options');
 function memorial_day_set_options()
@@ -66,7 +66,7 @@ function memorial_day_setting_page()
         <hr/>
         <p><b>全国哀悼日</b>：设立全国哀悼日，全国下半旗志哀，这种中央政府以全体国民名义举行的哀悼仪式，不但能给遇难同胞的亲人以莫大的精神慰藉，更能让全体国民都真切感受到自己是祖国大家庭的一员，从而增强每个公民的国家认同感和民族认同感，激发人们的爱国情怀和整个民族的凝聚力。国旗为公民而下降时，就是尊严为生命而上升的时候。</p>
         <hr/>
-        <form name="form" method="post" action="<?php echo wp_nonce_url('./options-general.php?page=' . MEMORIALDay_BASEFOLDER . '/memorial-day.php'); ?>">
+        <form name="form" method="post" action="<?php echo wp_nonce_url('./options-general.php?page=' . MEMORIALDAY_BASEFOLDER . '/memorial-day.php'); ?>">
             <table class="form-table">
                 <tr>
                     <th>
