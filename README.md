@@ -7,7 +7,7 @@ WordPress &amp; Typecho插件：「特殊节日使用」在国家公祭日、全
 
 WordPress 后台安装插件页面搜索：`MemorialDay`，安装由`沈唁`提供的插件即可。
 
-![](wordpress-MemorialDay.png)
+<a href="https://wordpress.org/plugins/memorialday"><img src="https://cdn.jsdelivr.net/gh/sy-records/MemorialDay/wordpress-MemorialDay.png"></a>
 
 ## Typecho
 
