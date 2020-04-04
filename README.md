@@ -1,7 +1,15 @@
 # MemorialDay
 WordPress &amp; Typecho插件：「特殊节日使用」在国家公祭日、全国哀悼日时网站增加灰色滤镜。
 
+## WordPress
+
 [WordPress](https://github.com/sy-records/MemorialDay/tree/wordpress)
+
+WordPress 后台安装插件页面搜索：`MemorialDay`，安装由`沈唁`提供的插件即可。
+
+![](wordpress-MemorialDay.png)
+
+## Typecho
 
 [Typecho](https://github.com/sy-records/MemorialDay/tree/typecho)
 
