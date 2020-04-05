@@ -1,6 +1,6 @@
 <?php
 /**
- * 「特殊节日使用」在国家公祭日、全国哀悼日时网站增加灰色滤镜。<a href="https://github.com/sy-records/MemorialDay/tree/typecho" target="_blank">Github</a>
+ * 「特殊节日使用」在国家公祭日、全国哀悼日时网站增加灰色滤镜。<a href="https://github.com/sy-records/MemorialDay" target="_blank">Github</a>
  *
  * @package MemorialDay
  * @author 沈唁
