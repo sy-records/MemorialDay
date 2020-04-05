@@ -8,8 +8,6 @@
  * @link https://qq52o.me
  */
 
-/* 激活插件方法 */
-
 class MemorialDay_Plugin implements Typecho_Plugin_Interface
 {
     public static function activate()
