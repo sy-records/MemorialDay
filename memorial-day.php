@@ -3,7 +3,7 @@
 Plugin Name: MemorialDay
 Plugin URI: https://github.com/sy-records/MemorialDay/tree/wordpress
 Description: 「特殊节日使用」在国家公祭日、全国哀悼日时网站增加灰色滤镜
-Version: 1.0.0
+Version: 1.0.1
 Author: 沈唁
 Author URI: https://qq52o.me
 License: Apache 2.0

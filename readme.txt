@@ -5,7 +5,7 @@ Tags: memorial, mourning, day, nanjing, 512, 1213, 918
 Requires at least: 4.2
 Tested up to: 5.4
 Requires PHP: 5.4.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: Apache 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
@@ -31,5 +31,8 @@ License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Fix time zone setting
+
+= 1.0.0 =
 * First version
