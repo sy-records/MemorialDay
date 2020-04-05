@@ -20,10 +20,6 @@ WordPress 后台安装插件页面搜索：`MemorialDay`，安装由`沈唁`提�
 
 默认日期为：`0404,0512,0918,1213`，可自行添加需要的日期
 
-### 单独分支
-
-[WordPress](https://github.com/sy-records/MemorialDay/tree/wordpress)
-
 ## Typecho
 
 ### 安装
@@ -44,10 +40,6 @@ chmod 755 MemorialDay/
 ### 设置
 
 默认日期为：`0404,0512,0918,1213`，可自行添加需要的日期
-
-### 单独分支
-
-[Typecho](https://github.com/sy-records/MemorialDay/tree/typecho)
 
 ## 其他系统站点
 
