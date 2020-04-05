@@ -24,8 +24,8 @@ function memorial_day_wp_head()
 {
     $options = get_option('memorial_day_options');
     $day_arr = explode(",", $options['days']);
-    date_default_timezone_set("PRC");
-    if (in_array( date('md'), $day_arr)) {
+    $now = date("md", current_time('timestamp'));
+    if (in_array($now, $day_arr)) {
         echo "<style type='text/css'>html{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: url('data:image/svg+xml;utf8,#grayscale'); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); -webkit-filter: grayscale(1);}</style>
 ";
     }
