@@ -43,7 +43,7 @@ class MemorialDay_Plugin implements Typecho_Plugin_Interface
     {
         $days = Typecho_Widget::widget('Widget_Options')->plugin('MemorialDay')->days;
         $day_arr = explode(",", $days);
-        if (in_array( date('md'), $day_arr)) {
+        if (in_array(date('md'), $day_arr)) {
             echo "<style type='text/css'>html{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: url('data:image/svg+xml;utf8,#grayscale'); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); -webkit-filter: grayscale(1);}</style>
 ";
         }
