@@ -26,6 +26,27 @@ WordPress 后台安装插件页面搜索：`MemorialDay`，安装由`沈唁`提�
 
 ## Typecho
 
+### 安装
+
+1. 从 Github载源码，将源码上传到 Typecho 插件目录 `usr/plugins` 下
+
+2. 修改插件文件名为`MemorialDay`
+
+3. 修改目录权限和用户组
+
+```bash
+chown -R www:www MemorialDay/
+chmod 755 MemorialDay/
+```
+
+4. 启用~
+
+### 设置
+
+默认日期为：`0404,0512,0918,1213`，可自行添加需要的日期
+
+### 单独分支
+
 [Typecho](https://github.com/sy-records/MemorialDay/tree/typecho)
 
 ## 其他系统站点
