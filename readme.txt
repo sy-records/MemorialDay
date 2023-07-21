@@ -3,9 +3,9 @@ Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
 Tags: memorial, mourning, day, nanjing, 512, 1213, 918
 Requires at least: 4.2
-Tested up to: 5.4
-Requires PHP: 5.4.0
-Stable tag: 1.0.1
+Tested up to: 6.2
+Requires PHP: 5.6.0
+Stable tag: 1.0.2
 License: Apache 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
@@ -30,6 +30,9 @@ License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 1. screenshot-1.png
 
 == Changelog ==
+
+= 1.0.2 =
+* Support WordPress 5.6
 
 = 1.0.1 =
 * Fix time zone setting
