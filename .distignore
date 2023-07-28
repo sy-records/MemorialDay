@@ -1,3 +1,4 @@
-Plugin.php
-/.git
 /.github
+/.git
+/.distignore
+Plugin.php
