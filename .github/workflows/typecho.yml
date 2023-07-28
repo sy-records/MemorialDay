@@ -1,0 +1,30 @@
+name: Build typecho plugin
+
+on:
+  workflow_dispatch:
+
+env:
+  ZIP_FILENAME: ${{ github.event.repository.name }}-typecho
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run:
+          zip --junk-paths ${{ env.ZIP_FILENAME }} README.md LICENSE Plugin.php
+      - name: Gets latest created release info
+        id: latest_release_info
+        uses: jossef/action-latest-release-info@v1.2.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GP_TOKEN }}
+      - name: Upload release binary
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.latest_release_info.outputs.upload_url }}
+          asset_path: ./${{ env.ZIP_FILENAME }}.zip
+          asset_name: ${{ env.ZIP_FILENAME }}.zip
+          asset_content_type: application/zip
