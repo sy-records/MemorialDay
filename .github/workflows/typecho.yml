@@ -18,7 +18,7 @@ jobs:
       - name: Get latest release upload_url
         id: latest_release
         run:
-          echo "::set-output name=upload_url::$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.upload_url')"
+          echo "upload_url=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.upload_url')" >> $GITHUB_OUTPUT
 
       - name: Upload release binary
         uses: actions/upload-release-asset@v1
