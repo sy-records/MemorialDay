@@ -14,17 +14,18 @@ jobs:
       - name: Build
         run:
           zip --junk-paths ${{ env.ZIP_FILENAME }} README.md LICENSE Plugin.php
-      - name: Gets latest created release info
-        id: latest_release_info
-        uses: jossef/action-latest-release-info@v1.2.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GP_TOKEN }}
+
+      - name: Get latest release upload_url
+        id: latest_release
+        run:
+          echo "::set-output name=upload_url::$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.upload_url')"
+
       - name: Upload release binary
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.latest_release_info.outputs.upload_url }}
+          upload_url: ${{ steps.latest_release.outputs.upload_url }}
           asset_path: ./${{ env.ZIP_FILENAME }}.zip
           asset_name: ${{ env.ZIP_FILENAME }}.zip
           asset_content_type: application/zip
