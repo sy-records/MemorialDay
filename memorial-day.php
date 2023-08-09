@@ -37,7 +37,7 @@ function memorial_day_plugin_action_links($links, $file)
 {
     if ($file == plugin_basename(dirname(__FILE__) . '/memorial-day.php')) {
         $links[] = '<a href="options-general.php?page=' . MEMORIALDAY_BASEFOLDER . '/memorial-day.php">设置</a>';
-        $links[] = '<a href="https://github.com/sy-records/MemorialDay/tree/wordpress" target="_blank">Github</a>';
+        $links[] = '<a href="https://github.com/sy-records/MemorialDay/tree/wordpress" target="_blank">GitHub</a>';
     }
     return $links;
 }
