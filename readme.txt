@@ -3,7 +3,7 @@ Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
 Tags: memorial, mourning, day, nanjing, 512, 1213, 918
 Requires at least: 4.2
-Tested up to: 6.5
+Tested up to: 4.6
 Requires PHP: 5.6.0
 Stable tag: 1.0.3
 License: Apache 2.0
