@@ -1,11 +1,11 @@
 === MemorialDay ===
 Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
-Tags: memorial, mourning, day, nanjing, 512, 1213, 918
+Tags: mourning, nanjing, 1213, 918
 Requires at least: 4.6
 Tested up to: 6.7
 Requires PHP: 5.6.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: Apache 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
@@ -27,9 +27,12 @@ License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
 == Screenshots ==
 
-1. screenshot-1.png
+1. 设置页面
 
 == Changelog ==
+
+= 1.0.4 =
+* Support preview
 
 = 1.0.3 =
 * Support WordPress 5.6
