@@ -4,7 +4,7 @@
  *
  * @package MemorialDay
  * @author 沈唁
- * @version 1.0.4
+ * @version 1.1.0
  * @link https://qq52o.me
  */
 
