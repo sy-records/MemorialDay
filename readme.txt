@@ -5,7 +5,7 @@ Tags: mourning, nanjing, 1213, 918
 Requires at least: 4.6
 Tested up to: 6.7
 Requires PHP: 5.6.0
-Stable tag: 1.0.4
+Stable tag: 1.1.0
 License: Apache 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
