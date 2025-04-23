@@ -3,7 +3,7 @@ Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
 Tags: mourning, nanjing, 1213, 918
 Requires at least: 4.6
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6.0
 Stable tag: 1.1.0
 License: Apache 2.0
